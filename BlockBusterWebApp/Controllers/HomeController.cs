@@ -78,7 +78,7 @@ namespace BlockBusterWebApp.Controllers
 
         public IActionResult Inventory()
         {
-            var movieList = BlockBusterBasicFunctions.GetAllMovies();
+            var movieList = BlockBusterBasicFunctions.GetAllMoviesFull();
             return View(movieList);
         }
         public IActionResult Privacy()
